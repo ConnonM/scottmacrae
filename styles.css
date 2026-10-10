@@ -81,6 +81,15 @@ h1 {
   font-weight: 500;
 }
 
+.hero-photo {
+  width: 10rem;
+  height: 10rem;
+  max-width: 40vw;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
 .tagline {
   text-transform: uppercase;
   letter-spacing: 0.25em;
