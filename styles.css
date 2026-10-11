@@ -81,6 +81,15 @@ h1 {
   font-weight: 500;
 }
 
+.hero-photo {
+  width: 10rem;
+  height: 10rem;
+  max-width: 40vw;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
 .tagline {
   text-transform: uppercase;
   letter-spacing: 0.25em;
@@ -109,6 +118,10 @@ section { padding: 3.5rem 0; border-bottom: 1px solid var(--line); }
 }
 
 #achievements li { margin-bottom: 0.75rem; }
+
+.timeline li {
+  border-left: 3px solid var(--accent);
+}
 
 .cards {
   list-style: none;
